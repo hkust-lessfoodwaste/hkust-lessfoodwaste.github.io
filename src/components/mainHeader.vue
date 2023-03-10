@@ -2,7 +2,7 @@
   <div>
     <div class="flex justify-between header fixed w-full top-0 z-10">
       <span class="text-lg font-bold self-center" v-if="routerPath === '/'"
-        >HKUST Food Wise</span
+        >HKUST Smart Canteen</span
       >
       <span v-else @click="handleToHomePage">
         <back-icon class="w-6 h-6" />

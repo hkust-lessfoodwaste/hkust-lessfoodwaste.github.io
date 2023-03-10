@@ -12,7 +12,7 @@ const DRIVE_LETTER_REGEX = /^[a-z]:/i;
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/food-waste-fyp-app/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/' : '/',
   plugins: [
     Components({
       resolvers: [AntDesignVueResolver()],

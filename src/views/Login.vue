@@ -2,7 +2,7 @@
   <div class="page">
     <a-spin :spinning="isLoading" tip="Logging in">
       <div class="header flex text-center items-center">
-        <div class="w-full text-3xl font-bold text-white">HKUST Food Wise</div>
+        <div class="w-full text-3xl font-bold text-white">HKUST Smart Canteen</div>
       </div>
       <div class="text-center text-2xl font-bold my-8">Login</div>
       <input type="text" class="input" placeholder="ITSC" v-model="itsc" />

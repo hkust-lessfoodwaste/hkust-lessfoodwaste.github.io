@@ -2,7 +2,7 @@
   "name": "food-waste-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bruceshark.github.io/food-waste-fyp-app/",
+  "homepage": "https://hkust-lessfoodwaste.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -133,6 +133,7 @@
 <script setup>
 import { ref, onMounted, onUpdated, watch } from "vue";
 import { useRouter, useRoute } from "vue-router";
+import { Modal } from "ant-design-vue"
 import dailyItem from "@/components/dailyItem.vue";
 import mainHeader from "@/components/mainHeader.vue";
 import ringChart from "@/components/ringChart.vue";
@@ -165,6 +166,12 @@ const fetchData = async () => {
     overviewTime.value = summaryData.overview.time;
     mealList.value = summaryData.history;
     badgeList.value = summaryData.badge;
+  }
+  if (summaryRes.message) {
+    Modal.info({
+      title: "Please note",
+      content: summaryRes.message
+    })
   }
 };
 
